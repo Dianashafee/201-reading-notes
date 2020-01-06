@@ -16,5 +16,3 @@
 - Reading Assignment 13
 - Reading Assignment 14
 - Reading Assignment 15
-
-## Reading 1 - Ch 1, Ch 

@@ -1,0 +1,51 @@
+# Introduction (pp. 2-11)
+- HTML is not as complicated as it looks and is very useful for anyone who works on the web
+- Structure of this Book:
+  - 1: HTML
+    - How HTML is used to create webpages: write words, add tags.
+    - Introduces tags for text, lists, links, images, tables, forms, video/audio/flash, etc.
+    - The examples we show are foundational to every web page.
+  - 2: CSS
+    - Explanation how CSS uses rules to control styling and layout.
+    - Examination of the wide variety of properties. Generally properties are one of two categories:
+      - Presentation: Controlling color of text, fonts, font size, colors, backgrounds.
+      - Layout: Controlling positions of elements. Also includes some techniques from professionals.
+  - 3: Practical
+    - Helpful information for building better websites
+    - New tags with HTML5.
+    - Putting sites on the web, search engine optimization, and using analytics.
+- How People Access the Web
+  - Browsers
+    - Chrome, Internet Explorer, Firefox, Safari, etc.
+    - New versions, but users are not always up to date.
+    - More in Ch 19.
+  - Web Servers
+    - Special computer that hosts a website, constantly connected to the internet.
+    - People/companies either host their own servers or use a web hosting company.
+  - Devices
+    - People are using many different devices for web access.
+      - Ex: Desktops, laptops, tablets, mobile phones.
+      - Devices have different screen sizes and connection speeds.
+  - Screen Readers
+    - Programs that read out the contents of a screen to a user.
+    - Commonly used for those with visual impairments.
+    - Laws exist requiring websites be accessible to those with disabilities.
+- How Websites are Created
+  - What you see
+    - Browser is receiving HTML and CSS from a web server, which it interprets.
+    - Images, audio, video, and animations can also be inserted in a page.
+    - Some sites also have Javascript and Flash for advanced functionality.
+  - How it is created
+    - Small websites might use just HTML and CSS
+    - Larger websites that update regularly might use a content management system, blogging tools, e-commerce, etc. which require more complex technology, but even those technologies are still producing HTML and CSS.
+      - These sites might have a database to store data, or use another language such as PHP, ASP.net, Java, or Ruby on the web server.
+        - Do not need to know these to improve what the user sees, and the contents of these books should be enough.
+  - HTML5 and CSS3
+    - HTML and CSS have had several versions.
+    - At time of writing, HTML5 and CSS3 were still being developed.
+      - Book includes features from these new versions.
+    - Knowing new versions gives you the ability to understand old versions.
+- How the Web Works
+  - To find a website, your browser connects to DNS server which finds the location of the web server hosting the requested site.
+  - Connection happens first to ISP, then to DNS servers which provide the 12-digit IP address, then to web server denoted by the IP, and the web server sends the site to your browser.
+  

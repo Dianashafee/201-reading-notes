@@ -99,7 +99,34 @@
     - New window should show the website source code.
     - This is how early web designers learned HTML and discovered new techniques.
     - Might look complicated, but you will be able to understand it by end of next chapter.
-  
 
-  
-    
+## HTML Chapter 8: “Extra Markup” (p.176-199)
+- The Evolution of HTML
+  - HTML has had several versions, each designed to improve the previous.
+    - Some browsers do not support certain features, and we make a note of this.
+  - HTML 4 - released 1997
+    - Included some elements that aren't used because they are better handled by CSS.
+  - XHTML 1.0 - released 2000
+    - HTML 4 with stricter rules about writing markup, to work with XML
+      - Closing tags required, lowercase attributes only, attributes require values, values in double quotes, non-use of deprecated elements, full closure of elements within original elements.
+        - This book follows these rules
+      - Allowed HTML use with other data formats such as Scalable Vector Graphics, MathML, and CML (chemical formulas).
+      - Two main flavors created:
+        - Strict XHTML 1.0: all rules followed to the letter.
+        - Transitional XHTML 1.0: Presentational elements still allowed
+        - XHTML 1.0 Framset: Had frames, not used.
+  - HTML5 - released 2000
+    - Not all tags need to be closed
+    - New elements and attributes
+- Doctypes
+  - Tell browser what version of HTML the page is using
+  - HTML5 - `<!DOCTYPE html>`
+  - HTML 4 - `<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">`
+  - XML Declaration - `<?xml version-"1.0" ?>
+  - Others
+- Comments in HTML
+  - `<!-- comment goes here -->`
+  - We add comments so that we and other people can understand the code.
+  - Not visible in main browser window, but visible to anyone who views source.
+  - Can indicate sections, block out code, or help people understand the code workings
+- ID Attribute

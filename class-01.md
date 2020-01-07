@@ -60,11 +60,11 @@
       - HTML characters inside brackets are called **elements**, usually made up of two tags that open and close.
         - HTML elements tell the browser something about the content between open and closing tags.
 - HTML Uses Elements to Describe the Structure of Pages
-  - <html></html> Indicates anything within is HTML code.
-  - <body></body> Indicates anything within should be shown in the main browser window.
-  - <h1></h1> Indicates main heading(s)
-  - <p></p> Indicates paragraph text
-  - <h2></h2> Indicates sub-heading(s)
+  - `<html></html>' Indicates anything within is HTML code.
+  - `<body></body>` Indicates anything within should be shown in the main browser window.
+  - `<h1></h1>` Indicates main heading(s)
+  - `<p></p>` Indicates paragraph text
+  - `<h2></h2>` Indicates sub-heading(s)
 - A Closer Look at Tags
   - Opening tag: left-angle bracket, character, right-angle bracket
   - Closing tag: same as opening tag, but with forward slash before the character.
@@ -77,7 +77,29 @@
   - <head> Information about the page
   - <title> Shown at the top of the browser or tab
 - HTML: HyperText Markup Language
-- Creating
+- Creating A Web Page On a PC
+  1. Start notepad
+  2. Type code into notepad file
+  3. Save file as all files, with .html extension
+  4. Open file in browser
+- Creating a Web Page On a Mac
+  1. Start textedit
+  2. Type code into textedit file
+  3. Save file as .html
+  4. Open file in browser
+- Code in a Content Management System
+  - If working with CMS, blog, e-commerce site, etc., you will likely need to log into an admin section of the site.
+  - Might have boxes to enter information into templates.
+    - Allows people who do not know how to write web pages to add information.
+    - Allows templates to be updated simultaneously.
+  - Some sites will have a button to see HTML.
+  - Some sites will let you edit template files, but be careful when doing so.
+- Look at How Other Sites are Built
+  - Can see the HTML of web pages by going to ***View*** menu of browser, and selecting ***Source*** or ***View Source***.
+    - New window should show the website source code.
+    - This is how early web designers learned HTML and discovered new techniques.
+    - Might look complicated, but you will be able to understand it by end of next chapter.
+  
 
   
     

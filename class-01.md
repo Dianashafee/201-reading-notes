@@ -1,4 +1,5 @@
-# Introduction (pp. 2-11)
+# Reading Assignment 1
+## Introduction (pp. 2-11)
 - HTML is not as complicated as it looks and is very useful for anyone who works on the web
 - Structure of this Book:
   - 1: HTML
@@ -48,4 +49,35 @@
 - How the Web Works
   - To find a website, your browser connects to DNS server which finds the location of the web server hosting the requested site.
   - Connection happens first to ISP, then to DNS servers which provide the 12-digit IP address, then to web server denoted by the IP, and the web server sends the site to your browser.
+
+## HTML Chapter 1: “Structure” (pp.12-39)
+- How Pages Use Structure
+  - Different documents have different structures in the real world, and we can do the same thing online.
+  - Heading, introduction, subheadings, topics, paragraphs, etc.
+- HTML Describes the Structures of Pages
+  - Example text shows html version of content from Word document on pg 18.
+    - HTML is shown in blue, text black.
+      - HTML characters inside brackets are called **elements**, usually made up of two tags that open and close.
+        - HTML elements tell the browser something about the content between open and closing tags.
+- HTML Uses Elements to Describe the Structure of Pages
+  - <html></html> Indicates anything within is HTML code.
+  - <body></body> Indicates anything within should be shown in the main browser window.
+  - <h1></h1> Indicates main heading(s)
+  - <p></p> Indicates paragraph text
+  - <h2></h2> Indicates sub-heading(s)
+- A Closer Look at Tags
+  - Opening tag: left-angle bracket, character, right-angle bracket
+  - Closing tag: same as opening tag, but with forward slash before the character.
+- Attributes Tell Us More About Elements
+  - Attributes provide more information about the contents of an element, appear after the character in the opening tag, and consist of a **name** and a **value**, separated by an equals sign.
+    - Name indicates what extra information you are supplying
+    - Value is the information or setting for the attribute. Should be in double quotes.
+- Body, Head, and Title
+  - <body> Main browser window
+  - <head> Information about the page
+  - <title> Shown at the top of the browser or tab
+- HTML: HyperText Markup Language
+- Creating
+
   
+    

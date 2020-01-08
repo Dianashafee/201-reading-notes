@@ -130,3 +130,44 @@
   - Not visible in main browser window, but visible to anyone who views source.
   - Can indicate sections, block out code, or help people understand the code workings
 - ID Attribute
+  - Unique identifier
+  - Should start with letter or underscore
+  - Allows individual item styling
+  - Can identify items in javascript
+  - Global attribute - can be used on any element
+- Class Attribute
+  - Identifies several elements as different from others
+  - Similar function to ID
+- Block Elements
+  - Appear to start a new line in the browser window
+  - Ex: `<h1>, <p>, <ul>`, etc
+- Inline Elements
+  - Appear to continue on the same line as neighboring elements
+  - Ex: `<a>, <b>(?), <em>, <img>`, etc
+- Grouping Text and Elements in a Block
+  - `<div>` division of elements that starts a new line
+- Grouping Text and Elements Inline
+  - `<span>` inline equivalent of `<div>` that differentiates text or contains a number of inline elements
+- Iframes
+  - Window in web page to show another web page
+  - Commonly used for a google map
+  - `<iframe>` with arguments for src (URL), height, width, scrollbars (no html5), frameborder (no html5), and seamless (html5 only)
+- Information About Your Pages
+  - `<meta>` lives inside head, gives info about page
+    - Empty element
+    - Can't be seen by user, mostly for search engines.
+    - Can define name and value of custom attribute
+    - Common uses
+      - Description: less than 155 character description for search engines
+      - keywords: old way to index for search engines
+      - robots: tells search engines if you want to not be listed in their results
+      - author: author of the webpage
+      - pragma: tells the browser not to cache the page - fully reload each visit
+      - expires: date that browser should stop caching the page
+- Escape Characters
+  - Characters reserved for use by html
+  - `<>&"'`, many symbols for money, trademarks, and mathematics
+
+## HTML 5 Layout
+    
+  

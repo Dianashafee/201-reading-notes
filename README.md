@@ -1,8 +1,8 @@
 # **Code 201 Reading Notes**
 ### Reading notes for Code Fellows 201 by Andrew Casper from *HTML & CSS: Design and Build Websites* by Jon Duckett
 ## Table of Contents
-- Reading Assignment 1
-- Reading Assignment 2
+- [Reading Assignment 1](class-01.md)
+- [Reading Assignment 2](class-02.md)
 - Reading Assignment 3
 - Reading Assignment 4
 - Reading Assignment 5
@@ -16,4 +16,3 @@
 - Reading Assignment 13
 - Reading Assignment 14
 - Reading Assignment 15
-- test

@@ -5,6 +5,7 @@
 - Visual editors: word processors for code
 - Semantic markup: extra information like emphasis, quotations, acronyms, etc
   - `<strong>`, `<em>`, `<blockquote>`, `<q>`, `<abbr>`, `<cite>`, `<dfn>`, `<address>`, `<ins>`, `<del>`, `<s>`
+  
 ## HTML Chapter 10: "Introducing CSS" (pp 226-245)
 - CSS can be understood to treat html content as though it's in a box and uses rules to indicate how that element should look.
 - Rules are made up of selectors that specify the element(s) and declarations that indicate what the elements should look like.
@@ -18,6 +19,7 @@
 - Some CSS properties are inherited by child elements.
   - Ex: font-family
   - Can be forced
+  
 ## JAVASCRIPT AND JQUERY Chapter 2: "Basic Javascript Instructions" (pp 53-84)
 - Statements should end with semicolons
 - Comments with // and /* */
@@ -54,6 +56,7 @@
       - `+, -, /, *, ++ (increment), -- (decrement), % (modulus)`
     - String: 'hello' + ' wprld'
       - Concatenation
+      
 ## JAVASCRIPT AND JQUERY Chapter 4: "Decisions and Loops" (pp 145-162)
 - We make decisions based on conditions
   - Conditions can be true or false

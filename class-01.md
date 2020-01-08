@@ -168,7 +168,7 @@
   - Characters reserved for use by html
   - `<>&"'`, many symbols for money, trademarks, and mathematics
 
-## HTML 5 Layout
+## HTML Chapter 17: "HTML 5 Layout" (pp 428-451)
 - Layout Elements
   - Page authors used `<div>` frequently for these elements previously
   - `<header>` for content at the top of the page that is not main content
@@ -184,7 +184,7 @@
 - Older browsers will treat new elements as inline
   - There are workarounds available from google
   
-## Process and Design
+## HTML Chapter 18: "Process and Design" (pp 452-476)
 - Who is the site for - need to understand target audience
   - age, gender, location, occupation, income, web use, etc
 - Why People Visit Your Website
@@ -217,7 +217,7 @@
   - Interactive
   - Consistent
   
-## JAVASCRIPT AND JQUERY Chapter 1: The ABC of Programming
+## JAVASCRIPT AND JQUERY Chapter 1: "The ABC of Programming" (pp 11-52)
   - 1/a: What is a Script and How do I Create One?
     - Series of instructions the computer can follow in order to achieve a goal
     - Each time a script runs, it might only use a small portion of all the instructions

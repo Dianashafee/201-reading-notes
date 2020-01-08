@@ -169,5 +169,69 @@
   - `<>&"'`, many symbols for money, trademarks, and mathematics
 
 ## HTML 5 Layout
-    
+- Layout Elements
+  - Page authors used `<div>` frequently for these elements previously
+  - `<header>` for content at the top of the page that is not main content
+  - `<footer>` for content at the bottom of the page that is not main content
+  - `<nav>` for primary site navigation blocks
+  - `<article>` for items that could stand alone or be syndicated
+  - `<aside>` for pullquotes or an aside of an article, or as container for side content related to whole page
+  - `<section>` groups related content together with a new heading
+  - `<hgroup>` groups different heading elements together as one heading
+  - `<figure>` content that is referenced by the main content (could move and main content would still make sense)
+    - `<figcaption>` should be included with `<figure`, captions the figure
+  - `<div>` still used
+- Older browsers will treat new elements as inline
+  - There are workarounds available from google
   
+## Process and Design
+- Who is the site for - need to understand target audience
+  - age, gender, location, occupation, income, web use, etc
+- Why People Visit Your Website
+  - Key motivations, specific goals
+- What information visitors need
+  - Key information - brand, most important features, differentiating features, common questions
+- How Often People Will Visit Yoir Site
+  - Goods/services - how often will people need to buy again?
+  - Information - How often does the information change?
+- Site Maps
+  - Diagram of pages that make up your site
+- Wireframes
+  - Organize sizes/positions of items on each page
+- Visual Heirarchy
+  - Large elements grab attention first
+  - Colors can draw attention to different elements. Brighter sections grab attention first.
+  - Different styles can make an element stand out
+- Grouping and Similarity
+  - Proximity - items placed close together are percieved as related
+  - Closure - when looking at complicated arrangements, we try to find patterns
+  - Continuance - items in a line or curve appear more related than those not following the same direction
+  - White space - related items closer together, unrelated items with space between them
+  - Color - background color around a group of items to emphasize connection
+  - Borders - can indicate the outer edge of a group or distinguish the group from neighbors
+- Designing Navigation
+  - Concise
+  - Clear
+  - Selective
+  - Context
+  - Interactive
+  - Consistent
+  
+## JAVASCRIPT AND JQUERY Chapter 1: The ABC of Programming
+  - 1/a: What is a Script and How do I Create One?
+    - Series of instructions the computer can follow in order to achieve a goal
+    - Each time a script runs, it might only use a small portion of all the instructions
+    - Computers are different than humans, so we have to think programmatically.
+    - To approach writing a script, break down goals into a series of tasks and steps.
+  - 1/b: How Do Computers Fit In With the World Around Them?
+    - Models of the world using data
+    - Objects have properties, events, and methods
+    - Programmers can write code to say that when an event happens to run some code
+    - To make webpages interactive, you write code that uses the browser's model of the webpage
+  - 1/c How Do I Write a Script for a Web Page?
+    - Separate html, css, and javascript into their own layers for content, presentation, and behavior
+      - Need to make sure site still works without javascript
+    - html element `<script>` tells the browser to load javascript
+    - Changing the javascript won't affect the html
+    - javascript works within the user's browser
+    

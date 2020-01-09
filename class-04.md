@@ -2,7 +2,7 @@
 ## HTML AND CSS Chapter 4: "Links" (pp 74-93)
 - Links use `<a>` (anchor)
   - href attribute specifies where to go
-    -Ex: `<a href="http://www.google.com">`
+    - Ex: `<a href="http://www.google.com">(link text)</a>`
   - Link text should be clear where the link is going
 - Links can be relative or absolute
 - Directories on websites work the same, can store files
@@ -14,3 +14,50 @@
   - Inform users before opening link in new window - good practice
 - `href=#<id>`can link to specific part of same page with the id
   - Can link to specific part of another page with `href=<URL> #<id>`
+
+## HTML AND CSS Chapter 15: "Layout" (pp 358-404)
+- CSS treats HTML elements as boxes
+  - Either block-level or inline
+- Parent: A block-level element that contains another block-level element
+  - Commonly a `<div>`
+  - Direct parent is the parent directly containing the element
+- Positioning elements
+  - Positioning schemes:
+    - Normal flow - (default) Block-level elements form new line and each element appears below the previous
+      - position: static
+    - Relative positioning - Shifts element without affecting other elements
+      - position: relative
+        - offset (top, bottom, left, right)
+    - Absolute positioning - Positions element within parent and other elements ignore it
+      - position: absolute
+      - top, bottom, left, right #px
+    - Fixed positioning - Positions element relative to page and it will not move while scrolling
+      - position: fixed
+    - Floating element - Element moves within parent and other elements flow around it
+      - float: (left or right)
+      - used to make elements side-by side
+      - used with clear to correctly stack elements where
+        - no elements can touch the indicated side (left, right, both, none)
+      - Issue: parents of floated elements appear 0px tall in some browsers
+        - solution: set overflow property to auto and width property to 100%
+      - Can create multi-column layouts
+        - div elements all set to float: left
+          - modify width and margin to affect size and gap between
+- z-index - determines which elements overlap each other
+  - higher z-index overlaps lower z-index
+- Screens can be many different sizes - mobile phones to huge monitors
+  - Try to create pages of 960-1000px widths - good size for most users
+- Can "tease" users by only partially showing next section
+- Fixed width vs Liquid layouts
+  - fixed width gives more control, page is more likely to look how its intended
+  - liquid layout allows different screen sizes and font sizes
+- Layout grids
+  - designers often use 960px grid for different numbers of evenly-sized columns
+- CSS frameworks
+  - Can do some basic layout tasks for you
+  - 960.GS is one of most popular frameworks
+- Can use multiple stylesheets for one page
+  - For example, to have one control layout while one controls fonts
+  - From main stylesheet, can use `@import url("<sheet name>")
+    - Or can just link multiple stylesheets in html
+      - Remember lowest takes precedence

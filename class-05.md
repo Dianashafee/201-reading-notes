@@ -1,0 +1,114 @@
+# Reading Assignment 5
+##  HTML AND CSS Chapter 5: "Images" (pp 94-125)
+- Images can set the tone of a site faster than a description
+- Stock images are available
+  - www.istockphoto.com, getty images, veer, sxc.hu, fotolia
+  - Can't just take photos from another website
+- Should use images on a simple, consistent background
+- Should keep images in a separate folder called images
+  - Might want subfolders on a big site
+    - ie interface, products, news, etc
+  - Content management software sometimes handles images for you
+- `<img src="<img address>" alt="<img description>" title="<mouseover text>"`
+  - `Also has height and width parameters
+- Images in code
+  - Before a paragraph: paragraph will begin on new line after image
+  - Inside the start of a paragraph: first row of text will align with bottom of image
+  - In the middle of a paragraph: between the words of the paragraph it appears in
+- Old: Aligning images
+  - align - exists in html, but CSS should be used instead
+    - in case we see in older code:
+      - left or right - horizontal
+      - top, middle, or bottom
+        - Where first line of text will start relative to image
+- Three rules for creating images:
+  - Save images in the right format
+    - jpeg, gif, or png
+      - jpeg for different colors
+      - gif for same color (ie logos)
+  - Save images at the right size
+    - Same size that they will appear on your site
+  - Always measure images in pixels
+    - 300 DPI or higher
+- Should only crop images so that you won't lose valuable information
+  - Vector images can be scaled up
+- Made up of lines between points
+  - Usually bitmap versions have to be saved
+    - SVG images are actually vector, are becoming more common
+- Gif images can show animations
+  - Slower to load, should be used carefully
+- Transparency in images
+  - Can retain transparency as gif if edges are straight and transparency is 100%
+    - Otherwise, transparency requires saving as a PNG
+      - Not fully supported in older browsers
+- Tools to edit and save images
+  - photoshop
+- Should check sizes of images
+- `<figure>` allows images and captions to stay together
+- `<figcaption>` allows caption to be added to image
+
+## HTML AND CSS Chapter 11: "Color" (pp 246 263)
+- color property can be specified by RGB, hex code, or color names
+- background-color is specified the same way
+  - default on browsers is white, but users can override this
+    - So if background color is important, it should be set specifically
+- Colors have hue (color on rainbow), saturation (amount of gray), and brightness (amount of black)
+- Contrast
+  - Foreground and background colors should have enough contrast for text to be legible
+    - Low contrast is a problem for the visually impaired, colorblind, poor monitors, and sunlight on screens (on mobile outdoors)
+    - Medium is better than high contrast for long spans of text
+- Opacity (CSS3) (alpha)
+  - Need backup color for older browsers
+- HSL colors (CSS3)
+  - Can specify colors with hue, saturation, and lightness
+  - HSLA (A=alpha) also possible in CSS3
+## HTML AND CSS Chapter 12: "Text" (pp 264-299)
+- Typeface terms:
+  - Serif - little details on ends of letters - considered easier to read in print
+  - Sans-serif - straight ends to letters - cleaner design
+  - monospace - each letter same space - easier to follow in code
+  - Weight: light medium bold black - increasing emphasis and contrast
+  - Style
+    - Normal
+    - Italic - cursive aspect
+    - Oblique - Normal just angled
+  - Stretch
+    - Condensed - narrow, tall letters
+    - Regular
+    - Extended - long, flat letters
+- Choosing a typeface
+  - Not all browsers have all fonts
+    - Font stack - specified order of preference
+  - Browsers are supposed to have at least one font of each of these types (font families):
+    - Serif, Sans-serif, Monospace, Cursive, Fantasy
+  - Techniques for more typefaces:
+    - Font-family (see above, usually at least one of each in every browser)
+    - Font-face - fonts from other places
+      - fontsquirrel, fontex, openfontlibrary
+    - Service-based font-face - paid custom fonts
+      - typekit, kernest, fontspring
+    - Images
+    - Sifr - flash movie font
+    - Cufon - uses javascript to make SVG version of text
+  - Type size
+    - Units: px, percent (of 16px), em (ratio to size of letter m), pt (old standard from printed text)
+  - Bold (normal or bold)
+  - italic (normal, italic, oblique)
+  - text-transform(uppercase, lowercase, and capitalize)
+  - text-decoration (underline and strike)
+  - line-height (leading) (space between lines)
+  - letter-spacing, word-spacing
+  - text-align (left, right, center, or justify)
+  - vertical-align (often confused, aligns relative to in-line items
+  - text-indent
+  - text-shadow (CSS3) (dark version of text just behind and offset)
+  - :first-letter, :first-line - independently styles these psuedo-elements
+  - :link, :visited - independently styles these psuedo-classes
+  - :hover, :active, :focused - styles for user-interactible psuedo-classes.
+- Attribute Selectors
+  - Existence [] matches a specific attribute
+  - Equality [-] matches a specific attribute with a specific value
+  - Space [~=] matches a specific attribute whose value appears on a space-separated list of words
+  - Prefix [^=] matches a specific attribute whose value begins with a specific string
+  - Substring [*=] Matches a specific attribute whose value contains a specific substring
+  - Suffix [$-] Matches a specific attribute whose value ends with a specific string

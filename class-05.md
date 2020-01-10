@@ -62,6 +62,7 @@
 - HSL colors (CSS3)
   - Can specify colors with hue, saturation, and lightness
   - HSLA (A=alpha) also possible in CSS3
+
 ## HTML AND CSS Chapter 12: "Text" (pp 264-299)
 - Typeface terms:
   - Serif - little details on ends of letters - considered easier to read in print

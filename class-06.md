@@ -23,6 +23,7 @@
     - It is easy to fall into the trap of thinking you understand enough of the problem to start coding it
     - Developers tend to think sitting down and talking to business people and customers is a waste of time
 - Marketing and branding is important
+
 ## JAVASCRIPT AND JQUERY Chapter 3: "Object Literals" (pp 100-105)
 - What is an object?
   - Group of variables and functions together to create a model of something

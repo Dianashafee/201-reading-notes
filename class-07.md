@@ -36,7 +36,7 @@
 - What's a Table?
   - Information in a grid format
 - Basic table structure:
-  - `<table>, <tr> (table row), <td> (table data), <th> (table headings)
+  - `<table>, <tr> (table row), <td> (table data), <th> (table headings)`
   - Span rows with `<td colspan="3">` and columns with `<td rowspan="3">`
   - Tables can also have `<thead>, <tbody>, and <tfoot>`
 

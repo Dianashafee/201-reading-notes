@@ -55,7 +55,7 @@
   - String object
   - Number object
   - Math object
-  - Date pbject
+  - Date object
  
     
       

@@ -1,0 +1,68 @@
+# Reading Assignment 10
+## JAVASCRIPT AND JQUERY Chapter 10: "Error Handling and Debugging" (pp 449-486)
+- Order of Execution
+  - Not always as obvious as it seems
+  - Functions that call a second+ function have to activate again once that function is finished
+- Executions Contexts
+  - One of three: global, function, and eval contexts (eval not shown)
+    - roughly corresponds with global vs local variables
+- THE STACK
+  - First in, last out
+- - Two phases that occur upon entering a new context
+    - Preparation - new scope created, variables, functions, and arguments created
+    - Execution - values assigned to variables, reference functions and run their code, execute statements
+    - Hoisting - functions and variables can be called and get values before they're declared
+      - This is because variables and functions are created within an execution context before being executed
+        - Execution contexts create variable objects, which contain all the variables, functions, and parameters for that context
+    - Each execution context can access its parents variables
+  - Functions in javascript have lexical scope - they are linked to the object they were defined within
+    - Therefore, the scope for each execution context is the contexts variables object + parents'
+  - Looking up the stack can affect performance. Further = more effect.
+  - Variable objects can't be accessed. Behind the scenes.
+- Understanding errors
+  - Javascript will stop when it encounters an error.
+    - Better to inform the user than just stop, so we need error messages
+      - We need to handle the error
+    - Errors create error objects
+      - Browsers can help read these
+      - Seven types of built-in error objects
+        - Syntax
+        - Reference
+        - Type
+        - Range
+- How to deal with errors - 2 options
+  - Debug scripts to fix
+    - Workflow: 
+      - Where is the problem? 
+        - Look at the error message
+        - Check how far the script is running
+        - Use breakpoints to check variable values
+        - Talk out what is happening to other engineers, vs what should be happening.
+      - What exactly is the problem?
+        - See if variable values are what you expect
+        - Break out pieces of code and test their functionality
+        - Check for numbers of parameters in a function, or values in an array
+        - Write down notes of what you tested and what the result was
+  - Handle errors gracefully
+    - Can use try, catch, throw, and finally statements
+      - try - runs code. If exception, go to catch. Then do finally.
+    - Make sure to handle edge-cases from third parties
+- Use browser dev tools
+  - console.log
+    - also console.info(), .warn(), .error(), .group()/.groupend(), .table(), .assert()
+  - Breakpoints
+  - Step through
+  - Debugger keyword
+  - Can create our own error with throw
+- Debugger tips
+  - Try another browser
+  - Add numbers
+  - strip back the code
+  - explain the code
+  - search online
+  - use sandbox
+  - use validation tools
+- Common errors
+  - capitalization, missed var, reserved words, variable out of scope...
+  - missed/extra characters
+  - data type issues

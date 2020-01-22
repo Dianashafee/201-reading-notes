@@ -1,0 +1,38 @@
+# Reading Assignment 13
+## Article: The Past, Present, and Future of Local Storage for Web Applications
+- Persistent local storage is easier on native client applications than web applications.
+- Cookies exist, but they have three huge downsides:
+  - Included with every http request, slowing things down by transmitting the same data over and over
+  - Unencrypted
+  - Limited to about 4KB of data
+- We really want:
+  - Lots of storage space
+  - On the client
+  - persists beyond a page refresh
+  - isn't transmitted to the server
+- Some "hacks" existed before html 5:
+  - Internet explorer had userData, up to 64KB of data per domain
+  - Adobe Flash 6 "cookies" allowed 100KB per domain
+    - With Flash 8, could access flash objects easily with javascript
+  - Google Gears allowed unlimited SQL data storage via API
+- HTML 5 set out to create a real solution
+  - "HTML storage", "Local storage", "DOM storage"
+  - Before using, should check browser supports it with short scripts
+  - key/value pairs
+    - key is a string, value can be any javascript type (but it is stored as strings)
+  - localStorage.getItem(), localStorage.setItem(), clear(), removeItem()
+    - square bracket syntax ok
+  - Can iterate through keys by index
+  - Can track changes with "storage" event
+    - Occurs when setItem, removeItem, or clear are called and actually change something
+  - Supported in all browsers
+- Limitations of HTML 5 storage
+  - 5MB of storage by default
+    - Will get QUOTA_EXCEEDED_ERR if exceeded
+    - Cannot ask user for more html storage as of 2011
+- Can save game states every time a change is made
+  - Can call resumeGame() function on page load, instead of newGame()
+- Again, all data is in strings
+- Competing visions for data storage
+  - WebSQL (?)
+
